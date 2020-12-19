@@ -1,0 +1,63 @@
+{
+  "name": "BlockCypher",
+  "type": "record",
+  "namespace": "com.gboissinot.esilv.streaming.data.velib",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "height",
+      "type": "int"
+    },
+    {
+      "name": "hash",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "type": "string"
+    },
+    {
+      "name": "latest_url",
+      "type": "string"
+    },
+    {
+      "name": "previous_hash",
+      "type": "string"
+    },
+    {
+      "name": "previous_url",
+      "type": "string"
+    },
+    {
+      "name": "peer_count",
+      "type": "int"
+    },
+    {
+      "name": "unconfirmed_count",
+      "type": "int"
+    },
+    {
+      "name": "high_gas_price",
+      "type": "long"
+    },
+    {
+      "name": "medium_gas_price",
+      "type": "long"
+    },
+    {
+      "name": "low_gas_price",
+      "type": "long"
+    },
+    {
+      "name": "last_fork_height",
+      "type": "int"
+    },
+    {
+      "name": "last_fork_hash",
+      "type": "string"
+    }
+  ]
+}

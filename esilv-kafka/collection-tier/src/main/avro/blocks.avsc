@@ -1,0 +1,97 @@
+{
+  "name": "BlockClass",
+  "type": "record",
+  "namespace": "com.gboissinot.esilv.streaming.data.velib",
+  "fields": [
+    {
+      "name": "hash",
+      "type": "string"
+    },
+    {
+      "name": "height",
+      "type": "int"
+    },
+    {
+      "name": "chain",
+      "type": "string"
+    },
+    {
+      "name": "total",
+      "type": "double"
+    },
+    {
+      "name": "fees",
+      "type": "long"
+    },
+    {
+      "name": "size",
+      "type": "int"
+    },
+    {
+      "name": "ver",
+      "type": "float"
+    },
+    {
+      "name": "time",
+      "type": "string"
+    },
+    {
+      "name": "received_time",
+      "type": "string"
+    },
+    {
+      "name": "coinbase_addr",
+      "type": "string"
+    },
+    {
+      "name": "relayed_by",
+      "type": "string"
+    },
+    {
+      "name": "nonce",
+      "type": "double"
+    },
+    {
+      "name": "n_tx",
+      "type": "int"
+    },
+    {
+      "name": "prev_block",
+      "type": "string"
+    },
+    {
+      "name": "mrkl_root",
+      "type": "string"
+    },
+    {
+      "name": "txids",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "internal_txids",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    },
+    {
+      "name": "depth",
+      "type": "int"
+    },
+    {
+      "name": "prev_block_url",
+      "type": "string"
+    },
+    {
+      "name": "tx_url",
+      "type": "string"
+    },
+    {
+      "name": "next_txids",
+      "type": "string"
+    }
+  ]
+}
